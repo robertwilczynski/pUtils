@@ -2,3 +2,4 @@ temp/*
 release/*
 bin/*
 output/*
+*.sublime-workspace

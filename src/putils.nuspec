@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>pUtils</id>
+    <version>0.0.1.0</version>
+    <authors>Robert Wilczynski</authors>
+    <description>Build and deployment ultilities</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/robertwilczynski/pUtils</projectUrl>
+    <licenseUrl>https://github.com/robertwilczynski/pUtils/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>powershell utilities octopus octopusdeploy build deploy  database sqlserver iis</tags>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools"/>
+    <file src="tools\utils\*" target="tools\utils"/>
+  </files>
+</package>

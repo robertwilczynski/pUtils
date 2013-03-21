@@ -1,4 +1,4 @@
-. ".\src\database.ps1"
+. ".\src\tools\utils\database.ps1"
 . ".\test\_globals.ps1"
 
 Describe "Backup-Database" {
